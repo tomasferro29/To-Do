@@ -1,10 +1,11 @@
+import TasksWrapper from "./components/TasksWrapper"
 
 function App() {
 
 
   return (
     <div>
-      hola
+      <TasksWrapper/>
     </div>
   )
 }
