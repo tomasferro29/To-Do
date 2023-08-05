@@ -5,14 +5,16 @@ import MarkDone from './MarkDoneButton';
 
 
 const Task = styled.div`
+    background-color: #fff;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 5px;
-    border: 1px solid blue;
+    border: 1px solid #444;
     height: 30px;
-    min-width: 400px;
-
+    min-width: 100%;
+    color: #222;
+    font-size: 2rem;
 `;
 
 const ButtonsWrapper = styled.div`
